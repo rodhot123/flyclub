@@ -1,0 +1,199 @@
+body{
+    font-family: Arial, Helvetica, sans-serif
+} 
+
+/*header*/
+.main-header{
+    position: relative; 
+    margin: 200px;
+}  
+
+.titulo{
+    font-size: 50px;
+    font-family: "Dancing Script";
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 15px;
+    right: 50px;
+    position: fixed;
+    top: 1%;
+    z-index: 100;
+}    
+
+.navegacao{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(194, 67, 45); 
+    z-index: 80; 
+}  
+
+.lista{
+    padding: 0;
+    margin-left: 150px;
+} 
+
+.lista-item{
+
+    display: inline-block;
+    padding: 12px;
+    margin-top: 15px; 
+    margin-right: 150px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px; 
+} 
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}  
+
+.logo{
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 2%;
+    left: 15px;
+    padding: 0;
+    margin: 0;
+    z-index: 80;
+}  
+
+/*textos index*/ 
+
+.section-index{
+    width: 960px;
+    margin: 0 auto;
+} 
+
+h3{
+    font-size: 40px; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 10px;
+    color: rgb(240, 49, 49); 
+}  
+
+#img-lado{
+    float: right; 
+    padding: 3px 0 0 25px; 
+    width: 250px;
+} 
+
+h4{
+    color: rgb(240, 49, 49) ; 
+    font-size: 30px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height: 5px;
+}
+.caixa{
+    float: left;
+    width: 280px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    text-align: center; 
+    margin: 4%;
+} 
+
+/*Pacotes*/ 
+
+.container{
+    width: 70%; 
+    margin: auto; 
+    margin-top: 20px; 
+    text-align: center; 
+    padding: 20px;
+    background-color: #e7e4e4; 
+    border: 1px solid #f0f0f0; 
+} 
+
+article img{
+    width: 80%;
+}
+
+
+
+/*contatos*/
+
+.grupo-contato{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 200px;
+    font-family: sans-serif;
+} 
+
+input,select{
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2); 
+    font-size: 15px;
+    padding: 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    resize: none; 
+}    
+
+input[type=text]{
+    background-image: url('Imagens/lupa.jpeg'); 
+    background-position: 10px 10px;
+    background-size: 20px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+}
+
+input[type=submit],input[type=reset]{
+    font-size: 1.5em; 
+    background-color: rgb(189, 36, 36);
+    border: 0;
+    border-radius: 8px;
+    color: rgb(221, 221, 221);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(189, 36, 36);
+    cursor: n-resize;
+} 
+
+input[type=submit]:hover,input[type=reset]:hover{
+  background-color: rgb(240, 49, 49); 
+}   
+
+/*footer*/ 
+
+.main-footer{
+    position: relative;
+    padding: 30px; 
+} 
+
+.foot-section{
+    display: inline-block;
+    border: 0;
+    width: 32%;
+    min-width: 250px;
+} 
+
+#copyright{
+    position: relative;
+    bottom: 0;
+    font-size: small;
+}
+
+/*Celuar*/
+
+@media all and (max-width : 600px){
+  
+     .logo{
+         width: 90px;
+         height: 90px;
+         position: fixed;
+         top: 1%;
+         left: 15px;
+         padding: 0;
+         margin: 0;
+         z-index: 80;
+        }  
+}
+
+
+
+
